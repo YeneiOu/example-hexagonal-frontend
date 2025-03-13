@@ -5,7 +5,7 @@ import UserView from "./presentation/views/UserView.vue";
 </script>
 
 <template>
-  <div>
+  <div class="app-view">
     <UserView/>
     
   </div>
