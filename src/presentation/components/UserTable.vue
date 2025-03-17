@@ -31,11 +31,11 @@ const props = withDefaults(defineProps<Props>(),{
         <ul>
           <li
             v-for="(user, index) in users"
-            :key="user.id"
+            :key="user.user_id"
             class="grid grid-cols-[80px_120px_240px] p-3 text-gray-700 text-center border-b even:bg-gray-100"
           >
-            <span>{{ user.id }}</span>
-            <span>{{ user.name }}</span>
+            <span>{{ user.user_id }}</span>
+            <span>{{ user.username }}</span>
             <span class="truncate">{{ user.email }}</span>
           </li>
         </ul>
